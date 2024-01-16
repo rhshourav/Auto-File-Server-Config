@@ -12,12 +12,9 @@ Automatically configure a Samba share on a Linux machine for a portable HDD, des
 
 ## Steps
 
-### 1. Script and Conversion
+### Script and Conversion
 
-Save the script as `auto_configure_samba.sh`:
-
-```bash
-#!/bin/bash
+```
 
 # Install required packages and enable firewall
 sudo apt-get update
@@ -32,7 +29,7 @@ dos2unix auto_configure_samba.sh
 # Execution
 chmod +x auto_configure_samba.sh
 ./auto_configure_samba.sh
-
+```
 # Access from Windows
 \\<Linux-IP-Address>   or   \\<Linux-Hostname>
 
