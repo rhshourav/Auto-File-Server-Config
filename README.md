@@ -31,6 +31,7 @@ chmod +x auto_configure_samba.sh
 ./auto_configure_samba.sh
 ```
 # Access from Windows
+```
 \\<Linux-IP-Address>   or   \\<Linux-Hostname>
-
+```
 
