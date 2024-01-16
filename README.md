@@ -35,3 +35,24 @@ chmod +x auto_configure_samba.sh
 \\<Linux-IP-Address>   or   \\<Linux-Hostname>
 ```
 
+# Removing Samba Configuration
+
+## Overview
+
+This guide outlines the steps to execute the `remove_samba_config.sh` script to remove the Samba share configuration and related changes made by the `auto_configure_samba.sh` script.
+
+## Steps
+
+### 1. Download the Script
+
+Save the `remove_samba_config.sh` script to your Linux machine. You can download it directly or copy the content into a file using a text editor.
+
+### 2. Make it Executable
+
+Open a terminal and navigate to the directory where the script is located. Run the following command to make it executable:
+
+```bash
+chmod +x remove_samba_config.sh
+./remove_samba_config.sh
+```
+
